@@ -9,7 +9,9 @@
 ## 网站
 
 在  [Scratch 作品分析器](https://clyain.netlify.app/scratchanalyzer/)  上查看可视化的页面以及更多的功能
+
 <img src='screenshot.png'></img>
+
 *注：这个页面的源代码只是这个网站的一部分，并且功能没有它的多。*
 
 ---
@@ -20,7 +22,7 @@
 
 如需引用，请在明显的位置介绍作者的信息。
 
-将文件夹`Analyzing for Scratch 3 Projects`里面的资源下载好；当然除了 `index.html` ，它可以为你提供一些参考。
+将文件夹`Analyzing for Scratch 3 Projects`里面的资源下载好，当然除了 `index.html` （不过它可以为你提供一些参考）。
 
 就像 `index.html` 一样：
 然后，你需要在你的作品中引用这些JavaScript文件，就像这样：
