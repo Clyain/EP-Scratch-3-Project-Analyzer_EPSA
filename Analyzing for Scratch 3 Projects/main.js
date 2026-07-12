@@ -2,9 +2,6 @@ document.getElementById('fileInput').addEventListener('change', function (e) {
     const file = e.target.files[0];
     if (!file) return;
 
-    //const output = document.getElementById('output');
-    //output.textContent = '读取中...';
-
     const reader = new FileReader();
     reader.onload = function (event) {
         JSZip.loadAsync(event.target.result)
@@ -83,7 +80,6 @@ document.getElementById('fileInput').addEventListener('change', function (e) {
                 //完成
             })
             .catch(function (err) {
-                output.textContent = '错误: ' + err.message;
                 console.error('错误:', err);
             });
     };
